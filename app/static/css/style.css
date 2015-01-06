@@ -1,0 +1,160 @@
+body{
+	margin: 0;
+}
+
+body.modal-open,
+.modal-open .navbar-fixed-top,
+.modal-open .navbar-fixed-bottom {
+	margin-top: 20px;
+}
+
+#input-name{
+	border: none;
+}
+
+#input-name-label{
+	margin-left: 15px;
+	margin-bottom: 0;
+}
+
+.form-group{
+	margin: 0;
+	height: 25px;
+}
+.answer-container{
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid red;
+	border-color: black;
+	margin-bottom: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.answers{
+	font-family: 'Verdana';
+	font-size: 15px;
+}
+
+.username{
+	font-family: 'Verdana';
+	font-size: 12px;
+
+}
+#last-post{
+	clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+	background-color: #fff;
+}
+
+#question-today{
+	font-family: 'Verdana';
+	color: #000;
+	font-size: 65px;
+
+}
+
+.bgimage {
+/*  z-index: 1;
+  position: absolute;
+  display: block;*/
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 390px;
+  background-image: url('/static/img/BGPIC.jpg');
+  background-repeat: no-repeat;
+  background-size: 1290px 390px;
+  z-index: 0;
+
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(1px);
+}
+
+
+.jumbotron{
+	opacity: .8;
+	position: relative;
+	margin-bottom: 0;
+	height: 390px;
+	padding: 90px;
+	z-index: 1;
+	
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+h1{
+	font-weight: bold;
+	
+	margin-top: 30px;
+}
+
+h3{
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+.headers{
+	font-family: 'Verdana';
+	letter-spacing: 2px;;
+}
+
+
+.navbar, .navbar-brand{
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	z-index: 1;
+	background-color: transparent;
+	border: none;
+	height: 50px;
+	font-size: 20px;
+	font-family: 'Verdana';
+
+}
+
+.page-button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 250px;
+	font-family: 'Verdana';
+	border: 2px solid black;
+	
+}
+
+#question {
+	
+}
+
+#question-image{
+	width: 100%;
+	min-height: 55%;
+}
+
+#thread{
+	margin-top: 45px;
+	margin-bottom: 15px;
+}
+
+#answer-area{
+	top: 30px;
+	border: none;
+	outline: none;
+	-webkit-appearance: none; 
+}
+
+#submit-answer-button{
+
+}
